@@ -4,7 +4,14 @@
 Creating a visualization dashboard website for the ccorrelation of S&P 500 Sectors by using `.html` and `.css`.<br/>
 
 ### Website Requirements
+* At the top of every page, have a navigation menu that:<br/>
+  * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.<br/>
+  * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.<br/>
+  * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.<br/>
+  * Is responsive (using media queries).<br/>
 
+* Deploy link for the website to GitHub pages.<br/>
+  [Correlation by S&P 500 Sectors](https://ash-tao.github.io/Web-Design-Challenge/)<br/>
 * The website consists of 7 pages total, including:<br/>
   * 1 `landing page` containing:<br/>
     * An explanation of the project.<br/>
@@ -28,14 +35,6 @@ Creating a visualization dashboard website for the ccorrelation of S&P 500 Secto
     * The table  be a bootstrap table component.<br/>
     * The data come from `Yahoo Finance API` , and was converted into to HTML.<br/>
     <img src="https://github.com/Ash-Tao/Web-Design-Challenge/blob/main/Images/DataPage.png"><br/>
-* At the top of every page, have a navigation menu that:<br/>
-  * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.<br/>
-  * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.<br/>
-  * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.<br/>
-  * Is responsive (using media queries).<br/>
-
-* Deploy link for the website to GitHub pages.<br/>
-  [Correlation by S&P 500 Sectors](https://ash-tao.github.io/Web-Design-Challenge/)<br/>
 
 ### Files
 - [index.html](https://github.com/Ash-Tao/Web-Design-Challenge/blob/main/index.html)<br/>
