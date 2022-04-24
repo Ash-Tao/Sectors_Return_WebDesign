@@ -12,12 +12,10 @@
 
 
     <body>
-      <img class="d-block w-100" src="Resources/assets/fff.jpg" alt="Second slide">
-
         <!-- Navigation Section -->
         <div class="navigation">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand btn btn-info" href="#" >Correlation</a>
+            <a class="navbar-brand btn btn-info" href="index.html" >Correlation</a>
             <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -30,17 +28,17 @@
                     <strong>Plots</strong>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">2015 August Stock Market Selloff</a>
-                    <a class="dropdown-item" href="#">Bitcoin Crash</a>
-                    <a class="dropdown-item" href="#">Covid - 19</a>
-                    <a class="dropdown-item" href="#">Russian Invasion of Ukraine</a>
+                    <a class="dropdown-item" href="html/visualization-2015AugustStockMarketSelloff.html">2015 August Stock Market Selloff</a>
+                    <a class="dropdown-item" href="html/visualization-BitcoinCrash.html">Bitcoin Crash</a>
+                    <a class="dropdown-item" href="html/visualization-Covid19.html">Covid - 19</a>
+                    <a class="dropdown-item" href="html/visualization-RussianInvasionofUkraine.html">Russian Invasion of Ukraine</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="comparisons.html">Comparison</a>
+                  <a class="nav-link" href="html/comparisons.html">Comparison</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="data.html">Data</a>
+                  <a class="nav-link" href="html/data.html">Data</a>
                 </li>
               </ul>
             </div>
@@ -54,15 +52,42 @@
             <div class="col-lg-7 col-md-12">
               <!-- Left box  -->
               <div class="box">
-                <h3 class="title">Summary:Correlation by S&P 500 Sectors</h3>
+                <h4 class="title">Summary: Correlation by S&P 500 Sectors</h4>
                 <hr>
                 <img src="Resources/assets/Stock_Market_Selloff.jpg" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                <p class="homepage">ntel‘s first serious venture in the world of discrete graphics has not 
-                  been all roses and daises as the company might have hoped. Arc A-Series is currently 
-                  in a bit of a pickle as it’s abundantly clear that the drivers are not ready but the 
-                  first Arc GPU has launched. The Arc A330M not only has underwhelming performance but a 
-                  myriad of issues, all of which are software-related. This means a lot of work still 
-                  needs to be done.</p>
+                <p class="homepage" >Analysis of the correlation of the 11 sectors of the S&P 500 during the selected crashes.</p>
+                  <p>Correlation is a statistical measure that expresses the extent to which two variables are linearly related (meaning they 
+                  change together at a constant rate but do not necessarily imply causation).</p>
+                  <p>The following table shows the rule of thumb for interpreting 
+                  the strength of the relationship between two variables based on the value of r:</p>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr style="text-align: center;" >
+                            <th style="width:50%">Absolute value of r </th>
+                            <th style="width:50%">Strength of relationship</th>
+                          </tr>
+                        </thead>
+                        <tbody style="text-align: center;">
+                          <tr>
+                            <th>r < 0.25</th>
+                            <td>No relationship</td>
+                          </tr>
+                          <tr>
+                            <th>0.25 < r < 0.5</th>
+                            <td>Weak relationship</td>
+                          </tr>
+                          <tr>
+                            <th>0.5 < r < 0.75</th>
+                            <td>Moderate relationship</td>
+                          </tr>
+                          <tr>
+                            <th>r > 0.75</th>
+                            <td>Strong relationship</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p>The sectors’ correlations during the 2015 August Stock Market Selloff & Covid – 19 are more concentrated. All are above 0.6, and most sectors have strong relationships with others, that is, sectors change together.</p>
+                      <p>The r ranges for Bitcoin Crash & Russian Invasion of Ukraine are more comprehensive than the above two; a few sectors have weak relationships or no relationship with others. Especially in the Russian Invasion, energy performance is negatively correlated with other sectors, making sense because energy was the only one raised sharply when other sectors fell in this crash.</p>
               </div>
             </div>
             <div class="col-lg-5 col-md-12">
@@ -74,29 +99,36 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="Resources/assets/Stock_Market_Selloff.jpg" alt="First slide">
+                      <a href="html/visualization-2015AugustStockMarketSelloff.html"> 
+                      <img class="d-block w-100" src="Resources/assets/Stock_Market_Selloff.jpg"  alt="First slide">
                       <div class="text-center">
                         <p class="carouselslide">2015 August Stock Market Selloff<br>2015-08-17 to 2015-11-03</p>
-
-                      </div>
+                      </div>  
+                    </a>
                     </div>
                     <div class="carousel-item">
+                      <a href="html/visualization-BitcoinCrash.html"> 
                       <img class="d-block w-100" src="Resources/assets/Bitcoin_Crash.jpg" alt="Second slide">
                       <div class="text-center">
                         <p class="carouselslide">Bitcoin Crash<br>2018-09-20 to 2019-04-23</p>
                       </div>
+                    </a>
                     </div>
                     <div class="carousel-item">
+                      <a href="html/visualization-Covid19.html"> 
                       <img class="d-block w-100" src="Resources/assets/Covid_19.jpg" alt="Third slide">
                       <div class="text-center">
                         <p class="carouselslide">Covid - 19<br>22020-02-19 to 2020-08-18</p>
                       </div>
+                    </a>
                     </div>
                     <div class="carousel-item">
+                      <a href="html/visualization-RussianInvasionofUkraine.html"> 
                       <img class="d-block w-100" src="Resources/assets/Russian_Invasion.jpg" alt="Third slide">
                       <div class="text-center">
                         <p class="carouselslide">Russian Invasion of Ukraine<br>2022-02-09 to 2022-03-29</p>
                       </div>
+                    </a>
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
