@@ -2,6 +2,7 @@
 
 ## Target
 Creating a visualization dashboard website for the ccorrelation of S&P 500 Sectors by using `.html` and `.css`.<br/>
+[**Click Here**](https://ash-tao.github.io/Sectors_Return_WebDesign/) to find out how the web page looks like. <br/>
 
 ### Website Requirements
 * At the top of every page, have a navigation menu that:<br/>
